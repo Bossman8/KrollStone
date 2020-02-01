@@ -3,10 +3,13 @@ import "./Contact.css";
 
 const Contact = () => {
   return (
-    <div className="contact" style={{ backgroundColor: "gray" }}>
+    <div className="contact">
       <div
-        className="container circle"
-        style={{ backgroundImage: 'url("https://i.imgur.com/7eqdV3a.png")' }}
+        className="container "
+        style={{
+          backgroundImage: 'url("https://i.imgur.com/7eqdV3a.png")',
+          padding: "30px"
+        }}
       >
         <h3 className="center">Contact Us!</h3>
         <br></br>
@@ -66,6 +69,9 @@ const Contact = () => {
             </button>
           </form>
         </div>
+      </div>
+      <div className="container col s6 offset-s3">
+        <div className="elfsight-app-cfd42992-4f7b-4b01-9350-0bfa1c3efa87" />
       </div>
     </div>
   );

@@ -8,33 +8,27 @@ const Background = props => {
       <h3>{props.title}</h3>
       <br></br>
       <br></br>
-      <div className="row">
-        <h4 className="col s4">SandMan</h4>
-        <h4 className="col s4">Potter</h4>
-        <h4 className="col s4">Tileguy</h4>
-      </div>
-      <div className="row">
-        <p className="col s4">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fermentum
-          aliquet est ac cursus. Sed vulputate arcu in massa faucibus venenatis.
-          Cras varius neque quis efficitur rhoncus. Pellentesque a nulla at ante
-          pellentesque consectetur. Praesent vitae nisl vitae tortor fermentum
-          dictum sit amet at ante.
-        </p>
-        <p className="col s4">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fermentum
-          aliquet est ac cursus. Sed vulputate arcu in massa faucibus venenatis.
-          Cras varius neque quis efficitur rhoncus. Pellentesque a nulla at ante
-          pellentesque consectetur. Praesent vitae nisl vitae tortor fermentum
-          dictum sit amet at ante.
-        </p>
-        <p className="col s4">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fermentum
-          aliquet est ac cursus. Sed vulputate arcu in massa faucibus venenatis.
-          Cras varius neque quis efficitur rhoncus. Pellentesque a nulla at ante
-          pellentesque consectetur. Praesent vitae nisl vitae tortor fermentum
-          dictum sit amet at ante.
-        </p>
+      <div className="container">
+        <div className="row">
+          <h5 className="col s4">Time Efficient</h5>
+          <h5 className="col s4">Detail Oriented</h5>
+          <h5 className="col s4">Customer Satisfaction</h5>
+        </div>
+        <div className="row">
+          <p className="col s4">
+            Shows up and finishes the job in a timely manner.
+          </p>
+          <p className="col s4">
+            Attention to detail is key while working with tile and grouting
+            materials. We take pride in the work that we do and always strive to
+            put in the extra effort, even when it comes down to the small
+            details.
+          </p>
+          <p className="col s4">
+            Open communication with the customer to make sure they job is
+            getting done how the customer wants.
+          </p>
+        </div>
       </div>
       <br></br>
       <br></br>
@@ -85,7 +79,6 @@ const Background = props => {
           </ul>
         </div>
       </div>
-      <h3>Our Work</h3>
     </div>
   );
 };
