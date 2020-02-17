@@ -11,9 +11,7 @@ const About = () => {
       <br></br>
       <br></br>
       <div className="row">
-        <div className="col s4 offset-s6" style={{ color: "white" }}>
-          Hello there!
-        </div>
+        <div className="col s4 offset-s6" style={{ color: "white" }}></div>
       </div>
       <div className="container">
         <img
