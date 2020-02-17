@@ -39,7 +39,7 @@ const Background = props => {
         <div className="slider">
           <ul className="slides">
             <li>
-              <img src="https://www.thespruce.com/thmb/vunnJZOdh2oYea0c0aS9so1gjuw=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Tile-install-GettyImages-183066355-588a1cb15f9b5874eed0a1ba.jpg" />{" "}
+              <img src="https://st4.depositphotos.com/4075661/28325/v/600/depositphotos_283253680-stock-video-laying-tile-floor-ceramic-tile.jpg" />{" "}
               {/* random image */}
               <div className="caption center-align">
                 <h3>Flooring</h3>
