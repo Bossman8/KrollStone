@@ -5,7 +5,9 @@
   height: 800px;
 }
 #aboutPic {
+  position: relative;
+  float: left;
   width: 30%;
   margin: 15px;
-  z-index: -1;
+  z-index: 1;
 }
