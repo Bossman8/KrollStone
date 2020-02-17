@@ -51,9 +51,7 @@ const Background = props => {
               {/* random image */}
               <div className="caption left-align">
                 <h3>Backsplash</h3>
-                <h5 className="light grey-text text-lighten-3">
-                  Here's our small slogan.
-                </h5>
+                <h5 className="light grey-text text-lighten-3"></h5>
               </div>
             </li>
             <li>
@@ -61,9 +59,7 @@ const Background = props => {
               {/* random image */}
               <div className="caption right-align">
                 <h3>Showers</h3>
-                <h5 className="light grey-text text-lighten-3">
-                  Here's our small slogan.
-                </h5>
+                <h5 className="light grey-text text-lighten-3"></h5>
               </div>
             </li>
             <li>
@@ -71,9 +67,7 @@ const Background = props => {
               {/* random image */}
               <div className="caption center-align">
                 <h3>Tile Removal</h3>
-                <h5 className="light grey-text text-lighten-3">
-                  Here's our small slogan.
-                </h5>
+                <h5 className="light grey-text text-lighten-3"></h5>
               </div>
             </li>
           </ul>
