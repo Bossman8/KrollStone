@@ -49,7 +49,7 @@ const Background = props => {
             <li>
               <img src="https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2018/5/14/0/IO_Lindye-Galloway_Newport-Beach-Eclectic_4.jpg.rend.hgtvcom.966.644.suffix/1526315043247.jpeg" />{" "}
               {/* random image */}
-              <div className="caption left-align">
+              <div className="caption center-align">
                 <h3>Backsplash</h3>
                 <h5 className="light grey-text text-lighten-3"></h5>
               </div>
@@ -57,7 +57,7 @@ const Background = props => {
             <li>
               <img src="https://images.unsplash.com/photo-1576678433413-202829a1ab98?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" />{" "}
               {/* random image */}
-              <div className="caption right-align">
+              <div className="caption left-align">
                 <h3>Showers</h3>
                 <h5 className="light grey-text text-lighten-3"></h5>
               </div>
